@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    background: black;
+    color: white;
+}
+nav .right{
+    display: flex;
+}
+nav .left{
+    display: flex;
+}
+.left img{
+    margin-top: -11px;
+    width: 44%;
+}
+.left p{
+    margin-inline: 22px;
+    margin-top: 21px;
+    height: 20px;
+}
+.left p:hover{
+    cursor: pointer;
+    border-bottom: 2px solid white;
+}
+.right p{
+    margin-inline: 22px;
+    margin-top: 21px;
+    height: 20px;
+}
+.right p:hover{
+    cursor: pointer;
+    border-bottom: 2px solid white;
+}
+.right i{
+    margin-top: 22px;
+    font-size: 22px;
+}
+.right button{
+    width: 100px;
+    height: 36px;
+    background-color: white;
+    color: black;
+    font-weight: 600;
+    border: none;
+    border-radius: 22px;
+    margin-top: 12px;
+}
+
+.right button:hover{
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+}
+
+/*main pag*/
+.card{
+    background: url(./images/background.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    
+}
+.main{
+    width: 400px;
+    height: 400px;
+    margin-left: 22px;
+    background-color: white;
+    
+}
+.main .icon{
+    display: flex;
+    justify-content: center;
+}
+.main .icon .car{
+    margin-inline: 74px;
+    margin-top: 11px;
+    border-bottom: 3px solid black;
+}
+.icon .car i{
+    font-size: 123%;
+}
+.card h1{
+    padding: 33px;
+    font-size: 33px;
+}
+.card input{
+    width: 330px;
+    height: 30px;
+    background-color: rgb(235, 230, 230);
+    margin-left: 33px;
+    border: none;
+    padding: 11px;
+    margin-top: 8px;
+    
+}
+.card .btn{
+    margin-top: 44px;
+    margin-left: 33px;
+}
+
+.card .btn .fr{
+    width: 140px;
+    height: 36px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    margin-inline:18px ;
+}
+.card .btn .fr:hover{
+    background-color:rgb(189, 189, 189) ;
+}
+.card .btn button{
+    width: 140px;
+    height: 36px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    margin-inline: 18px ;
+}
+.card .btn button:hover{
+    background-color:rgb(189, 189, 189);
+}
+/*scond pag*/
+.head h1{
+    padding: 33px;
+    font-size: 43px;
+
+}
+.ride .uber{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+.uber .auto{
+    display: flex;
+    margin-top: 33px;
+    
+    padding-top:10px ;
+   
+}
+.uber .auto:hover{
+    border-radius: 20px;
+    background-color: rgb(235, 234, 234);
+
+}
+.uber .auto img{
+    margin-inline:33px ;
+    width: 43%;
+}
+.uber .auto p{
+    font-weight: 600;
+    font-size: 15px;
+    color: rgb(133, 131, 126);
+}
+
+
+/*saf*/
+.safe{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 33px;
+}
+.safe p{
+    font-size: 15px;
+    font-weight: 600;
+    padding: 10px;
+}
+.safe img{
+    height: 400px;
+}
+/*app*/
+
+
+.app{
+    background-color: rgb(211, 211, 211);
+}
+.app h1{
+    padding: 33px;
+    font-size: 44px;
+}
+.app .down{
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  padding: 55px;
+}
+.app .imgs{
+    text-align: center;
+    font-weight: 800;
+    color: #fff;
+}
+.app .imgs img,p:hover{
+    cursor: pointer;
+}
+.app .imgs span{
+    color: black;
+}
+/*footer*/
+.footer{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    margin-top: 22px;
+    padding: 44px;
+    background-color: black;
+    color: white;
+
+}
+.footer p{
+    padding-top: 15px;
+}
